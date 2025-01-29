@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodgan Yarmak</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/reg.css">
+    <link rel="icon" href="../static/media/web-logo.png">
+    <script src="../static/js/index.js"></script>
+</head>
+<body>
+
+<header>
+    <div id="btn1">Portfolio</div>
+
+    <nav>
+        <a href="index.html" style="animation: StartAnimationHeader1 1.5s normal;">Главная страница</a>
+        <a href="contacts.html" style="animation: StartAnimationHeader1 2s normal;">Контакты</a>
+        <a href="projects.html" style="animation: StartAnimationHeader1 2.5s normal;">Проекты</a>
+    </nav>
+
+    <div id="btn2">
+        <button id="signin" style="animation: StartAnimationHeader3 1.5s ease-in;" onclick="GetSignInDialog()">Войти</button>
+        <button id="signup" style="animation: StartAnimationHeader1 2s normal;" onclick="RegRegirect()">Зарегестрироваться</button>
+    </div>
+</header>
+
+<form id="dialog1" method="post">
+
+    <h1>Вход</h1><br>
+
+    <input type="text" placeholder="Имя пользователя" name="username"><br>
+
+    <input type="password" placeholder="Пароль" name="password"><br>
+
+    <button type="submit">Войти</button>
+
+</form>
+
+</body>
+</html>
